@@ -28,6 +28,9 @@ param (
     $DataMigrationDelay = 45
 )
 
+#Requires -Version 6.0
+#Requires -Modules Az.Compute
+
 $ErrorActionPreference = 'Stop'
 $InformationPreference = 'Continue'
 
